@@ -19,7 +19,7 @@ def list_output(list):
 
 
 path = Path(Path.home(), "Desktop", "Directory")
-print("Количество файлов в директории Directory - " + str(len(os.listdir(path))))
+print("Количество файлов в заданной директории - " + str(len(os.listdir(path))))
 my_dict = {}
 k = 0
 with open("data.csv", newline='') as csvfile:
